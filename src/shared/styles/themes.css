@@ -1,0 +1,11 @@
+@layer base {
+  :root {
+    --color-bg: #fbf1c7;
+    --color-fg: #3c3836;
+  }
+
+  .dark {
+    --color-bg: #1d2021;
+    --color-fg: #ebdbb2;
+  }
+}
