@@ -1,11 +1,50 @@
 @layer base {
-  :root {
+  :root,
+  .light {
+    /* Основные цвета */
     --color-bg: #fbf1c7;
+    --color-bg-soft: #f2e5bc;
     --color-fg: #3c3836;
-  }
+    --color-fg-muted: #7c6f64;
 
+    /* Акценты */
+    --color-primary: #d65d0e; /* тёмно-оранжевый */
+    --color-accent: #d79921; /* горчично-желтый */
+
+    /* Статусы */
+    --color-success: #98971a;
+    --color-info: #458588;
+    --color-warning: #d79921;
+    --color-danger: #cc241d;
+
+    /* Границы и подложки */
+    --color-border: #d5c4a1;
+    --color-card: #f9f5d7;
+    --color-overlay: rgba(255, 255, 255, 0.6);
+  }
+}
+
+@layer base {
   .dark {
-    --color-bg: #1d2021;
-    --color-fg: #ebdbb2;
+    /* Основные цвета */
+    --color-bg: #1d2021; /* тёмный фон */
+    --color-bg-soft: #282828; /* чуть светлее */
+    --color-fg: #ebdbb2; /* основной текст */
+    --color-fg-muted: #a89984; /* второстепенный текст */
+
+    /* Акценты */
+    --color-primary: #fe8019; /* оранжевый, кнопки и активные элементы */
+    --color-accent: #fabd2f; /* желтый, ховер или выделения */
+
+    /* Статусы */
+    --color-success: #b8bb26;
+    --color-info: #83a598;
+    --color-warning: #fabd2f;
+    --color-danger: #fb4934;
+
+    /* Границы и подложки */
+    --color-border: #3c3836;
+    --color-card: #282828;
+    --color-overlay: rgba(0, 0, 0, 0.6);
   }
 }
