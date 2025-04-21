@@ -2,7 +2,7 @@
   :root,
   .light {
     /* Основные цвета */
-    --color-bg: #fbf1c7;
+    --color-bg: #f9f5d7;
     --color-bg-soft: #f2e5bc;
     --color-fg: #3c3836;
     --color-fg-muted: #7c6f64;
@@ -19,7 +19,7 @@
 
     /* Границы и подложки */
     --color-border: #d5c4a1;
-    --color-card: #f9f5d7;
+    --color-card: #fbf1c7;
     --color-overlay: rgba(255, 255, 255, 0.6);
   }
 }

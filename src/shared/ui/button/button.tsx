@@ -4,7 +4,7 @@ import clsx from 'clsx';
 export interface GlobalButtonProps
   extends React.HTMLAttributes<HTMLButtonElement> {
   text: string;
-  variant?: 'primary' | 'secondary' | 'danger';
+  variant?: 'primary' | 'secondary' | 'danger' | 'neutral';
 }
 
 export const GlobalButton = ({
@@ -13,8 +13,9 @@ export const GlobalButton = ({
   variant = 'primary',
   ...props
 }: GlobalButtonProps) => {
-  const base = 'px-4 py-2 rounded transition-colors';
+  const base = 'rounded transition-colors py-1 px-4 text-[var(--color-fg)]';
   const variants = {
+    neutral: 'border border-[var(--color-border)] hover:border-[var(--color-accent)]',
     primary:
       'bg-[var(--color-primary)] text-[var(--color-bg)] hover:bg-[var(--color-accent)]',
     secondary:
