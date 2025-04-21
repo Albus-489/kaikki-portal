@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import '../shared/styles/global.css';
-import { NavbarCmp } from '@/features/navbar/navbar.cmp';
+import { NavbarCmp } from '@/features/navbar/Navbar';
 import { ThemeProvider } from '@/shared/model/theme/provider';
 
 export const metadata: Metadata = {

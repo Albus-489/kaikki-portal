@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Theme, ThemeContext } from './context';
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
